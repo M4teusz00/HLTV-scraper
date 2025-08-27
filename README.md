@@ -54,12 +54,31 @@ A sample dataset is included in this repository to illustrate the structure of t
 - **Match** – descriptive match name (Team1 vs Team2)  
 - **Match_ID** – unique identifier for the match  
 
-**Purpose:**
-- Quickly test or explore the data without running the scraper.  
-- Understand the column structure before generating full datasets.  
-- Use as a placeholder dataset for Power BI dashboards.  
-
-**Screenshot Preview:**  
+**Matches_data:**  
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/e8509f2b393192390d26ba39c08f3bd1819541a6/sample_matches_data.png)
 
+**Sheet:** `players_data`
+## Data Columns
+
+- **match** - descriptive match name (Team1 vs Team2)  
+- **map** - the map on which the match was played (all_maps is summary for the whole 1 match)
+- **team** - name of the team the player belongs to
+- **player** - name of the player
+- **nationality** - player's nationality.
+- **K-D** - number of kills and deaths for the player in the match
+- **+/-** - kill-death difference
+- **ADR** - average damage per round for the player
+- **Swing** - player's influence on rounds or match momentum (new metric on hltv.org)
+- **Rating 3.0** - overall performance rating (new metric on hltv.org)
+- **Match_ID** - unique identifier for the match
+
+**Players_data:**  
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/dd8f27c53e4390dccb9a656f9b626ffc9d7602d4/sample_players_data.png)
+
+## Example Use Cases
+- Analyze top-performing players and teams.
+- Track performance trends across different maps or matches.
+- Build predictive models for match outcomes based on player stats.
+
+This dataset contains detailed statistics from competitive matches, including player performance metrics, team data, and match information. It is useful for analyzing player performance, team dynamics, and match outcomes.
 
