@@ -33,3 +33,32 @@ To install them, run:
 pip install -r dependencies.txt
 or
 %pip install -r dependencies.txt
+
+## 📊 Sample Data
+
+A sample dataset is included in this repository to illustrate the structure of the scraped data.  
+
+**File:** `Tournament_Sample_Data_Tables.xlsx`  
+**Sheet:** `matches_data`
+
+**Columns:**
+- **Team 1** – name of the first team  
+- **Team 1 Score** – score of the first team  
+- **Team 2** – name of the second team  
+- **Team 2 Score** – score of the second team  
+- **Event** – tournament or event name  
+- **Date (raw)** – date of the match (readable format)  
+- **Date (unix)** – date in UNIX timestamp  
+- **Maps** – maps played in the match  
+- **Match** – descriptive match name (Team1 vs Team2)  
+- **Match_ID** – unique identifier for the match  
+
+**Purpose:**
+- Quickly test or explore the data without running the scraper.  
+- Understand the column structure before generating full datasets.  
+- Use as a placeholder dataset for Power BI dashboards.  
+
+**Screenshot Preview:**  
+![Sample Excel Screenshot]([screenshots/sample_excel.png](https://github.com/M4teusz00/HLTV-scraper/blob/56de1db7a98acd96e3f78526594a394e4b7e094c/sample_matches_data.png))
+
+
