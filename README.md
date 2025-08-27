@@ -54,7 +54,7 @@ A sample dataset is included in this repository to illustrate the structure of t
 - **Match** – descriptive match name (Team1 vs Team2)  
 - **Match_ID** – unique identifier for the match  
 
-**Matches_data:**  
+## **Matches_data:**  
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/e8509f2b393192390d26ba39c08f3bd1819541a6/sample_matches_data.png)
 
 **Sheet:** `players_data`
@@ -72,7 +72,7 @@ A sample dataset is included in this repository to illustrate the structure of t
 - **Rating 3.0** - overall performance rating (new metric on hltv.org)
 - **Match_ID** - unique identifier for the match
 
-**Players_data:**  
+## **Players_data:**  
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/dd8f27c53e4390dccb9a656f9b626ffc9d7602d4/sample_players_data.png)
 
 ## Example Use Cases
