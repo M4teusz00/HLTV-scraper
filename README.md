@@ -60,6 +60,6 @@ A sample dataset is included in this repository to illustrate the structure of t
 - Use as a placeholder dataset for Power BI dashboards.  
 
 **Screenshot Preview:**  
-![Sample Excel Screenshot]([screenshots/sample_excel.png](https://github.com/M4teusz00/HLTV-scraper/blob/56de1db7a98acd96e3f78526594a394e4b7e094c/sample_matches_data.png))
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/e8509f2b393192390d26ba39c08f3bd1819541a6/sample_matches_data.png)
 
 
