@@ -6,10 +6,10 @@ The dataset is designed to be imported into **Power BI** for creating interactiv
 ## 📂 Repository Structure
 
 hltv-scraper/
-├── hltv-scraper.ipynb # Jupyter Notebook with scraping logic
-├── dependencies.txt # Python dependencies/libraries
-├── Tournament_Sample_Data_Tables.xlsx # Example dataset (small sample)
-└── README.md # Project documentation
+- ├── hltv-scraper.ipynb # Jupyter Notebook with scraping logic
+- ├── dependencies.txt # Python dependencies/libraries
+- ├── Tournament_Sample_Data_Tables.xlsx # Example dataset (small sample)
+- └── README.md # Project documentation
 
 ## 🚀 Features
 - Scrapes CS2 tournament data (matches, player stats etc.) from HLTV.org.  
