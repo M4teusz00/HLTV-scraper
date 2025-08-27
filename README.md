@@ -33,6 +33,7 @@ To install them, run:
 pip install -r dependencies.txt
 or
 %pip install -r dependencies.txt
+```
 
 ## 📊 Sample Data
 
