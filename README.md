@@ -58,8 +58,8 @@ A sample dataset is included in this repository to illustrate the structure of t
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/e8509f2b393192390d26ba39c08f3bd1819541a6/sample_matches_data.png)
 
 **Sheet:** `players_data`
-## Data Columns
 
+**Columns:**
 - **match** - descriptive match name (Team1 vs Team2)  
 - **map** - the map on which the match was played (all_maps is summary for the whole 1 match)
 - **team** - name of the team the player belongs to
