@@ -12,7 +12,7 @@ hltv-scraper/
 └── README.md # Project documentation
 
 ## 🚀 Features
-- Scrapes CS:GO tournament and match data from HLTV.org.  
+- Scrapes CS2 tournament data (matches, player stats etc.) from HLTV.org.  
 - Exports structured datasets in Excel format (`.xlsx`).  
 - Provides a **sample dataset** for testing or demonstration without scraping.  
 - Output data is ready for Power BI visualization and analysis.  
