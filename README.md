@@ -59,7 +59,7 @@ Scrapes detailed player-level statistics for each match and map in the selected 
   - **`Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`**
 - Styles the final table for better readability.
 
-❗ Note: The Map column includes 'All maps' value (sum of the stats for all maps played in the match)
+❗ Note: The Map column includes **`All maps`** value (sum of the stats for all maps played in the match)
 
 ### Player Statistics Scraper (Cell 2) output:
 
