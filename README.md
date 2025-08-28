@@ -73,17 +73,13 @@ Cleans and merges match-level and player-level data:
 - Reorders columns so `Match_ID` appears at the end of the matches table.
 - Merges player statistics (`players_df`) with match information (`matches_df`) to include the `Match_ID` field.
 
-This step is additional for those who want to create a simple relational database (for example in Power BI). With the `Match_ID` you can simply create a relation by this column.
+This step is additional for those who want to create a basic relational database (for example in Power BI). You can simply create a relation by the `Match_ID` column.
 
-
-
-
-
-
-
-
-
-
+### Cell 4 – Export to Excel
+Saves the processed data into an Excel file with two separate sheets:
+- `matches_data` → contains match-level information (`matches_df`).
+- `players_data` → contains player-level statistics (`players_df`).
+- Uses `pandas.ExcelWriter` with the `openpyxl` engine to create a single `.xlsx` file.
 
 ## 📊 Sample Data
 
