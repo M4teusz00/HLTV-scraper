@@ -59,12 +59,21 @@ Scrapes detailed player-level statistics for each match and map in the selected 
   - **`Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`**
 - Styles the final table for better readability.
 
-❗ Note: The Map column includes **`All maps`** value (sum of the stats for all maps played in the match)
+❗ Note: The `Map` column includes **All maps** value (sum of the stats for all maps played in the match)
 
 ### Player Statistics Scraper (Cell 2) output:
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/054b5bd809dac6e30b38b622ae0b97c0ea59e565/players_data_ss.png)
 
+### Cell 3 – Data Integration (creating Match_ID columns)
+Cleans and merges match-level and player-level data:
+- Converts the raw date field into a proper datetime format.
+- Creates a unique `Match_ID` for each game (`Team1_vs_Team2_yyyymmdd`).
+- Adds a `Match` column (team1 vs team2) to align with the player stats table.
+- Reorders columns so `Match_ID` appears at the end of the matches table.
+- Merges player statistics (`players_df`) with match information (`matches_df`) to include the `Match_ID` field.
+
+This step is additional for those who want to create a simple relational database (for example in Power BI). With the `Match_ID` you can simply create a relation by this column.
 
 
 
