@@ -34,16 +34,20 @@ pip install -r dependencies.txt
 or
 %pip install -r dependencies.txt
 ```
-## Code Description
+## Code Description (hltv-scraper.ipynb)
 ### Cell 1 – Match Data Scraper
 This code scrapes match-level data from HLTV.org for selected event ID's (I selected last 3 big LAN events: Esports World Cup 2025, BLAST Bounty 2025 Season 2 Finals, IEM Cologne 2025). The ID's you can find on hltv.org in Events tab. If you will click the tournament you want to scrap, find Results tab. You will see there the event ID like this: 
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/19e94d82811cb0c9cce911635058c769e9385072/hltv_url.png)
-
+The code:
 - Collects **event name**, **team names**, **scores**, **match date**, and **maps played**.
 - Handles pagination to get all matches for each event.
 - Converts the scraped data into a Pandas DataFrame (`matches_df`).
-- Styles the DataFrame for readability and highlights the higher team score per match.
+- Styles the DataFrame and highlights the higher team score per match (just for a better look in the notebook).
+
+### Cell 1 output looks like this:
+
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/2ba1a410aba9c624d16b79fcbdb625c2d091a80d/match_data_ss.png)
 
 ## 📊 Sample Data
 
