@@ -23,9 +23,9 @@ hltv-scraper/
 
 ### Python Libraries
 The scraper requires the following Python libraries (dependencies.txt):
-cloudscraper
+**cloudscraper
 beautifulsoup4
-pandas
+pandas**
 
 To install them, run:
 
