@@ -1,6 +1,6 @@
 # HLTV Scraper
 
-This project scrapes **CS:GO tournament and match data** from [HLTV.org](https://www.hltv.org/) and saves it into an Excel file (`.xlsx`).  
+This project scrapes **CS2 tournament, match and players data** from [HLTV.org](https://www.hltv.org/) and saves it into an Excel file (`.xlsx`).  
 The dataset is designed to be imported into **Power BI** for creating interactive dashboards (see the project [HLTV Dashboard](https://github.com/M4teusz00/HLTV-dashboard)).
 
 ## 📂 Repository Structure
