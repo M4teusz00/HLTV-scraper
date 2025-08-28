@@ -50,14 +50,14 @@ The code:
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/2ba1a410aba9c624d16b79fcbdb625c2d091a80d/match_data_ss.png)
 
-### **Cell 2 – Player Statistics Scraper**
+### Cell 2 – Player Statistics Scraper
 Scrapes detailed player-level statistics for each match and map in the selected HLTV events:
 - Collects **match name**, **map name**, and **team**.
-- Extracts player info: nickname, nationality, kills/deaths (K-D), +/- score, ADR, swing, and Rating 3.0.
+- Extracts player info: **nickname**, **nationality**, **kills/deaths (K-D)**, **+/-**, **ADR**, **Swing**, and **Rating 3.0**.
 - Ensures exactly 5 players per team per map.
-- Stores results in a Pandas DataFrame with the following columns:
-  - `Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`
-- Styles the final table for better readability and highlights the top values in `ADR` and `Rating 3.0`.
+- Stores results in a Pandas DataFrame `players_df` with the following columns:
+  - **`Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`**
+- Styles the final table for better readability.
 
 
 
