@@ -39,15 +39,38 @@ or
 This code scrapes match-level data from HLTV.org for selected event ID's (I selected last 3 big LAN events: Esports World Cup 2025, BLAST Bounty 2025 Season 2 Finals, IEM Cologne 2025). The ID's you can find on hltv.org in Events tab. If you will click the tournament you want to scrap, find Results tab. You will see there the event ID like this: 
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/19e94d82811cb0c9cce911635058c769e9385072/hltv_url.png)
+
 The code:
 - Collects **event name**, **team names**, **scores**, **match date**, and **maps played**.
 - Handles pagination to get all matches for each event.
 - Converts the scraped data into a Pandas DataFrame (`matches_df`).
 - Styles the DataFrame and highlights the higher team score per match (just for a better look in the notebook).
 
-### Cell 1 output looks like this:
+### Cell 1 output:
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/2ba1a410aba9c624d16b79fcbdb625c2d091a80d/match_data_ss.png)
+
+### **Cell 2 – Player Statistics Scraper**
+Scrapes detailed player-level statistics for each match and map in the selected HLTV events:
+- Collects **match name**, **map name**, and **team**.
+- Extracts player info: nickname, nationality, kills/deaths (K-D), +/- score, ADR, swing, and Rating 3.0.
+- Ensures exactly 5 players per team per map.
+- Stores results in a Pandas DataFrame with the following columns:
+  - `Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`
+- Styles the final table for better readability and highlights the top values in `ADR` and `Rating 3.0`.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📊 Sample Data
 
