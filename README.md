@@ -46,7 +46,7 @@ The code:
 - Converts the scraped data into a Pandas DataFrame (`matches_df`).
 - Styles the DataFrame and highlights the higher team score per match (just for a better look in the notebook).
 
-### Cell 1 output:
+### Match Data Scraper (Cell 1) output:
 
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/2ba1a410aba9c624d16b79fcbdb625c2d091a80d/match_data_ss.png)
 
@@ -55,11 +55,15 @@ Scrapes detailed player-level statistics for each match and map in the selected 
 - Collects **match name**, **map name**, and **team**.
 - Extracts player info: **nickname**, **nationality**, **kills/deaths (K-D)**, **+/-**, **ADR**, **Swing**, and **Rating 3.0**.
 - Ensures exactly 5 players per team per map.
-- Stores results in a Pandas DataFrame `players_df` with the following columns:
+- Stores results in a Pandas DataFrame (`players_df`) with the following columns:
   - **`Match`, `Map`, `Team`, `Player`, `Nationality`, `K-D`, `+/-`, `ADR`, `Swing`, `Rating 3.0`**
 - Styles the final table for better readability.
 
+❗ Note: The Map column includes 'All maps' value (sum of the stats for all maps played in the match)
 
+### Player Statistics Scraper (Cell 2) output:
+
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/054b5bd809dac6e30b38b622ae0b97c0ea59e565/players_data_ss.png)
 
 
 
