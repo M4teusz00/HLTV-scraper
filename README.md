@@ -122,7 +122,7 @@ A sample dataset is included in this repository to illustrate the structure of t
 - **Rating 3.0** - overall performance rating (new metric on hltv.org)
 - **Match_ID** - unique identifier for the match
 
-![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/dd8f27c53e4390dccb9a656f9b626ffc9d7602d4/sample_players_data.png)
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/dd33c2adb88a19c734677d1b739f182ae6cc0168/sample_players_data.png)
 
 This dataset contains detailed statistics from competitive matches, including player performance metrics, team data, and match information. It is useful for analyzing player performance, team dynamics, and match outcomes.
 
