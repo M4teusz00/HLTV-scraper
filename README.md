@@ -102,7 +102,7 @@ A sample dataset is included in this repository to illustrate the structure of t
 - **Match** – descriptive match name (Team1 vs Team2)  
 - **Match_ID** – unique identifier for the match  
  
-![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/e8509f2b393192390d26ba39c08f3bd1819541a6/sample_matches_data.png)
+![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-scraper/blob/bd454ace933ff6e3d6eb756a27351a12026d6c5d/sample_matches_data.png)
 
 ## **Players_data:**  
 
